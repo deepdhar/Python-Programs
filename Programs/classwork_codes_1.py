@@ -1,4 +1,4 @@
-# pattern      *
+# pattern      		   *
 #			  * *
 #			 * * *
 #			* * * *
@@ -10,6 +10,7 @@ for i in range(1,n):
 
 
 
+	
 # program to count special characters in a string
 str1 = input()
 p = ",.@#$%^&*()[]<>/+=-_`~ "
@@ -18,8 +19,9 @@ count=0
 for ch in str1:
 	if ch in p:
 		count += 1
-
 print(count)
+
+
 
 
 
@@ -45,6 +47,9 @@ print("Vowels: {}\nConsonants: {}".format(count1,count2))
 
 
 
+
+
+
 #program to check if a string is plaindrome or not
 str1 = "madam"
 str2 = str1[::-1]
@@ -56,6 +61,11 @@ else:
 
 
 
+	
+	
+	
+	
+	
 #program to remove space from string
 string1 = input()
 string2 = string1.replace(" ", "")
